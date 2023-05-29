@@ -1,0 +1,7 @@
+*.o
+*.ll
+parser.cpp
+parser.hpp
+tokens.cpp
+mygcc
+target
