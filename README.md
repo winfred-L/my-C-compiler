@@ -13,7 +13,7 @@ ZJU编译原理大程2023
 * llvm 14.0.0
 * clang 14.0.0
 
-**注意：txt文件使用LF行尾格式，CRLF会有token识别问题**
+**注意：输入的源文件使用LF行尾格式，CRLF会有token识别问题**
 
 ```bash
 # 安装命令
@@ -33,7 +33,7 @@ cd src
 # 编译
 make all
 # 自动测试
-make test FILE=test.txt
+make test FILE=test.c
 # 链接IO函数(主要是用于输入)
 make link OBJFILE=a.o
 ```
